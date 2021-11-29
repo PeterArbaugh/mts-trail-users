@@ -5,10 +5,18 @@ import altair as alt
 
 st.title('Mountain to Sound Bike Traffic & Seattle Weather')
 
-st.markdown('I combined 2 data sets to look at weather and number of trail users on the Mountains to Sound Trail in Seattle.')
-# Data sources
-# - [MTS Trail west of I-90 Bridge Bicycle and Pedestrian Counter](https: // data.seattle.gov/Transportation/MTS-Trail-west-of-I-90-Bridge-Bicycle-and-Pedestri/u38e-ybnc)
-# - [Did it rain in Seattle? 1948-2017](https: // www.kaggle.com/rtatman/did-it-rain-in-seattle-19482017)
+st.write(
+    """
+    Edit: [Here's another demo app I created recently with a bit more interactivity.](https://share.streamlit.io/peterarbaugh/simple-movie-recommender/main)
+
+    I combined 2 data sets to look at weather and number of trail users on the Mountains to Sound Trail in Seattle.
+    
+    Data sources
+    - [MTS Trail west of I-90 Bridge Bicycle and Pedestrian Counter](https: // data.seattle.gov/Transportation/MTS-Trail-west-of-I-90-Bridge-Bicycle-and-Pedestri/u38e-ybnc)
+    - [Did it rain in Seattle? 1948-2017](https: // www.kaggle.com/rtatman/did-it-rain-in-seattle-19482017)
+    """
+)
+
 
 MTS_DATA_URL = (
     'MTS_Trail_west_of_I-90_Bridge_Bicycle_and_Pedestrian_Counter.csv')
